@@ -1,4 +1,6 @@
-# Spatial exam: Anayzying Data Centers
+# Spatial Exam: Analyzing Data Centers
+
+By: Albin, Trine & Victor
 
 ## Setup:
 
@@ -36,18 +38,18 @@ The packages will be installed locally
 
 ### 3. Getting the data:
 
-Some of the data files used, we are not allowed to directly distribute, however they are freely available for you to download and import manually. When downloaded, place inside the `/in/` folder.
+We are not allowed to directly re-distribute some of the data files we use, however they are freely available for you to download and import manually. When downloaded, place inside the `/in/` folder.
 
 1. **States_shapefile-shp**
 Can be downloaded from: https://hub.arcgis.com/datasets/1b02c87f62d24508970dc1a6df80c98e/explore?location=37.249090%2C-97.282458%2C5.18
-After downloading, place entire States_shapefile-shp folder inside `/in/` folder.
+After downloading, unzip the `States_shapefile-shp.zip`, and place the place entire `States_shapefile-shp` folder inside `/in/` folder, as shown in the file tree below.
 
 2. **most-humid-states-2024.csv**
-This `.csv` file can be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/most-humid-states
+This `.csv` file can be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/most-humid-states. Does require an email to get the download.
 After downloading, place the `most-humid-states-2024.csv` file inside `/in/` folder.
 
 3. **united-states-by-density-2024.csv**
-This `.csv` file can also be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/state-densities
+This `.csv` file can also be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/state-densities. Does require an email to get the download.
 After downloading, place the `united-states-by-density-2024.csv` file inside `/in/` folder.
 
 4. **datacenters_usa_clean.csv**
@@ -87,4 +89,4 @@ When running the notebooks, there is a certain order you need to run them. The o
 
 We have also included the notebook we used for geocoding, although you do not have to run this one, as the datacenter file you you downloaded already has the geocoded locations added. It is simply included to show *how* we used the geocoder.
 
-We have also included the script we used to generate the dummy data set. This script is also not required for you to run, since you won't have to use the dummy data.
+We have also included the script we used to generate the dummy data set. This script is also not required for you to run, since you won't have to create the dummy data.
