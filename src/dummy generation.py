@@ -67,7 +67,7 @@ def save_dummy_dataset(df, output_path):
 def main():
     original_dataset_path = os.path.join('..', 'in', 'datacenters_usa_clean.csv')
     shapefile_path = os.path.join('..', 'in', 'States_shapefile-shp', 'States_shapefile.shp')
-    output_path = os.path.join('..', 'out', 'dummy_coordinates2.csv')
+    output_path = os.path.join('..', 'out', 'dummy_coordinates.csv')
 
     # Load the original dataset
     original_df = load_original_dataset(original_dataset_path)
