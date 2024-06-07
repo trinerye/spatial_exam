@@ -36,9 +36,46 @@ The packages will be installed locally
 
 ### 3. Getting the data:
 
-In the paper, there should be link to download the `datacenters_usa_clean.csv` file from sciencedata.dk. When downladed, put the `.csv` file into the `/in/` folder of this directory.
+Some of the data files used, we are not allowed to directly distribute, however they are freely available for you to download and import manually. When downloaded, place inside the `/in/` folder.
 
-**EXPLAIN REST OF DATA FILES HERE**
+1. **States_shapefile-shp**
+Can be downloaded from: https://hub.arcgis.com/datasets/1b02c87f62d24508970dc1a6df80c98e/explore?location=37.249090%2C-97.282458%2C5.18
+After downloading, place entire States_shapefile-shp folder inside `/in/` folder.
+
+2. **most-humid-states-2024.csv**
+This `.csv` file can be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/most-humid-states
+After downloading, place the `most-humid-states-2024.csv` file inside `/in/` folder.
+
+3. **united-states-by-density-2024.csv**
+This `.csv` file can also be downloaded freely from World Population Review at: https://worldpopulationreview.com/state-rankings/state-densities
+After downloading, place the `united-states-by-density-2024.csv` file inside `/in/` folder.
+
+4. **datacenters_usa_clean.csv**
+<u>For examiners</u>, there is an invite only download link in the metadata table of the paper, whihic will direct you to datascience.dk.
+
+5. **<u>For non examiners only</u>**
+If you are not an examiner, you an use the provided `dummy_coordinates.csv` in the `/in/` folder. You can either rename this file to `datacenters_usa_clean.csv`, or change the notbooks to use `dummy_coordinates.csv` instead. This is a fake dataset made to emulate the official data set.
+
+When done, your `/in/` folder should look like this:
+
+```
+spatial_exam/
+    └── in/
+        ├── States_shapefile-shp/
+        │   ├── States_shapefile.cpg
+        │   ├── States_shapefile.dbf
+        │   ├── States_shapefile.prj
+        │   ├── States_shapefile.shp
+        │   └── States_shapefile.shx
+        ├── avgprice_annual.xlsx
+        ├── datacenters_usa_clean.csv
+        ├── dummy_coordinates.csv
+        ├── green_states.csv
+        ├── most-humid-states-2024.csv
+        ├── state_temp.csv
+        ├── united-states-by-density-2024.csv
+        └── .gitkeep
+```
 
 ### 4. Running the notebooks
 When running the notebooks, there is a certain order you need to run them. The order in which we recommend is:
