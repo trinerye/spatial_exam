@@ -1,4 +1,4 @@
-# Spatial exam: Analzying Data Centers
+# Spatial exam: Anayzying Data Centers
 
 ## Setup:
 
@@ -37,6 +37,8 @@ The packages will be installed locally
 ### 3. Getting the data:
 
 In the paper, there should be link to download the `datacenters_usa_clean.csv` file from sciencedata.dk. When downladed, put the `.csv` file into the `/in/` folder of this directory.
+
+**EXPLAIN REST OF DATA FILES HERE**
 
 ### 4. Running the notebooks
 When running the notebooks, there is a certain order you need to run them. The order in which we recommend is:
