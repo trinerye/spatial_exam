@@ -48,4 +48,4 @@ When running the notebooks, there is a certain order you need to run them. The o
 
 We have also included the notebook we used for geocoding, although you do not have to run this one, as the datacenter file you you downloaded already has the geocoded locations added. It is simply included to show *how* we used the geocoder.
 
-We have also included the script we used to gene
+We have also included the script we used to generate the dummy data set. This script is also not required for you to run, since you won't have to use the dummy data.
